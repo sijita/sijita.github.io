@@ -1,0 +1,393 @@
+#body {
+    font-family: 'Sora', monospace; 
+    background-color: #0F0F0F
+}
+
+#titleXS {
+    font-family: 'Sora', monospace; 
+    font-weight:900; 
+    border:1px solid #BAFF29
+}
+
+#titleXL {
+    font-family: 'Sora', monospace; 
+    font-weight:900; 
+    border:1px solid #BAFF29
+}
+
+#mainTitle1 {
+    font-weight: 600; 
+    font-size: 5vw; 
+    color: #fff;
+    letter-spacing: 0.20em;
+}
+
+#mainTitle2 {
+    font-weight: 100;
+    font-size: 2vw; 
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.15em;
+}
+
+#mainTitle3 {
+    font-weight: 700; 
+    font-size: 10vw; 
+    color: #fff;
+}
+
+#mainTitle4 {
+    font-weight: 700; 
+    font-size: 10vw; 
+    color: #BAFF29;
+}
+
+#parents {
+    color: #BAFF29;
+}
+
+#parents2 {
+    color: #BAFF29;
+}
+
+#hr1 {
+    color:#BAFF29; 
+    height: 0.1vw; 
+    width: 75%
+}
+
+#hr2 {
+    color:#BAFF29; 
+    height: 0.1vw; 
+    width: 75%
+}
+
+#hr3 {
+    margin-left: 10px; 
+    background-color:#BAFF29
+}
+
+#hr4 {
+    color:#BAFF29; 
+    height: 0.1vw; 
+    width: 75%
+}
+
+#hr5 {
+    color:#BAFF29; 
+    height: 0.1vw; 
+    width: 75%
+}
+
+#iconPerson {
+    color: #BAFF29
+}
+
+#iconInfo {
+    color: #BAFF29
+}
+
+#iconBrief {
+    color: #BAFF29;
+}
+
+#iconArroba {
+    color: #BAFF29;
+}
+
+#subTitle1 {
+    color: #f6fafd
+}
+
+#subTitle2 {
+    color:#BAFF29;
+}
+
+#subTitle3 {
+    color:#BAFF29;
+}
+
+#aboutMe {
+    color: #96a4b3
+}
+
+#listH {
+    list-style: none
+}
+
+#listH1 {
+    font-family: monospace
+}
+
+#listH2 {
+    font-family: monospace
+}
+
+#listH3 {
+    font-family: monospace
+}
+
+#listH4 {
+    font-family: monospace
+}
+
+#listH5 {
+    font-family: monospace
+}
+
+#listH6 {
+    font-family: monospace
+}
+
+#profile {
+    border: 1px solid #BAFF29;
+}
+
+#exp {
+    color: #f6fafd
+}
+
+#expList {
+    color: #96a4b3
+}
+
+#fecha1 {
+    font-family: monospace
+}
+
+#fecha2 {
+    font-family: monospace
+}
+
+#listAside {
+    list-style: none; 
+    width: 0
+}
+
+#listFooter {
+    list-style: none;
+}
+
+#wapp {
+    fill:#96a4b3;
+}
+
+#logoP {
+    filter: invert(1)
+}
+
+#logoP2 {
+    filter: invert(1)
+}
+
+#spanCrud {
+    font-family: monospace
+}
+
+#spanCrud2 {
+    font-family: monospace
+}
+
+#linkCon {
+    color: #BAFF29
+}
+
+#external {
+    filter: invert(1)
+}
+
+#external2 {
+    filter: invert(1)
+}
+
+#external3 {
+    filter: invert(1)
+}
+
+#external4 {
+    filter: invert(1)
+}
+
+#external5 {
+    filter: invert(1)
+}
+
+#work {
+    color: #f6fafd
+}
+
+#screen {
+    border: 1px solid #BAFF29;
+}
+
+#screen2 {
+    border: 1px solid #BAFF29;
+}
+
+#screen3 {
+    border: 1px solid #BAFF29;
+}
+
+#screen4 {
+    border: 1px solid #BAFF29;
+}
+
+#screen5 {
+    border: 1px solid #BAFF29;
+}
+
+#down {
+    text-decoration: none;
+}
+
+#card {
+    color: #96a4b3;
+}
+
+#card2 {
+    color: #96a4b3;
+}
+
+#card3 {
+    color: #96a4b3;
+}
+
+#card4 {
+    color: #96a4b3;
+}
+
+#card5 {
+    color: #96a4b3;
+}
+
+#trabajosCards {
+    background-color: #0e0e0e;
+}
+
+#trabajosCards2 {
+    background-color: #0e0e0e;
+}
+
+#trabajosCards3 {
+    background-color: #0e0e0e;    
+}
+
+#trabajosCards4 {
+    background-color: #0e0e0e;    
+}
+
+#trabajosCards5 {
+    background-color: #0e0e0e;      
+}
+
+#trabajosCards6 {
+    background-color: #0e0e0e;      
+}
+
+#trabajosCards7 {
+    background-color: #0e0e0e;      
+}
+
+#trabajosCards8 {
+    background-color: #0e0e0e;       
+}
+
+#trabajosCards9 {
+    background-color: #0e0e0e;     
+}
+
+#trabajosCards10 {
+    background-color: #0e0e0e;       
+}
+
+#habilityCard{
+     font-family: monospace;
+     color:#BAFF29
+}
+
+#habilityCard2{
+     font-family: monospace;
+     color:#BAFF29
+}
+
+#habilityCard3{
+     font-family: monospace;
+     color:#BAFF29
+}
+
+#habilityCard4{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard5{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard6{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard7{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard8{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard9{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard10{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard11{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard12{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard13{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard14{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard15{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard16{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard17{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#contact {
+    color: #f6fafd
+}
+
+#btnContact {
+    background-color: #BAFF29
+}

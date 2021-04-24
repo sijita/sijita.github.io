@@ -39,3 +39,68 @@ form.addEventListener('submit', function(e) {
             }, 3000);
         });
 });
+
+ScrollReveal().reveal('#aboutMe', { delay: 150 });
+ScrollReveal().reveal('#aboutMe', { duration: 2000 });
+ScrollReveal().reveal('#aboutMe', { origin: 'left' });
+ScrollReveal().reveal('#aboutMe', { distance: '50px' });
+
+ScrollReveal().reveal('#about', { delay: 150 });
+ScrollReveal().reveal('#about', { duration: 2000 });
+ScrollReveal().reveal('#about', { distance: '50px' });
+
+ScrollReveal().reveal('#profile', { delay: 150 });
+ScrollReveal().reveal('#profile', { duration: 2000 });
+ScrollReveal().reveal('#profile', { distance: '50px' });
+
+ScrollReveal().reveal('#exp', { delay: 150 });
+ScrollReveal().reveal('#exp', { duration: 2000 });
+ScrollReveal().reveal('#exp', { origin: 'left' });
+ScrollReveal().reveal('#exp', { distance: '50px' });
+
+ScrollReveal().reveal('#expList', { delay: 150 });
+ScrollReveal().reveal('#expList', { duration: 2000 });
+ScrollReveal().reveal('#expList', { distance: '50px' });
+
+ScrollReveal().reveal('#work', { delay: 150 });
+ScrollReveal().reveal('#work', { duration: 2000 });
+ScrollReveal().reveal('#work', { origin: 'left' });
+ScrollReveal().reveal('#work', { distance: '50px' });
+
+ScrollReveal().reveal('#workTarget', { delay: 150 });
+ScrollReveal().reveal('#workTarget', { duration: 2000 });
+ScrollReveal().reveal('#workTarget', { origin: 'top' });
+ScrollReveal().reveal('#workTarget', { distance: '50px' });
+
+ScrollReveal().reveal('#workTarget2', { delay: 150 });
+ScrollReveal().reveal('#workTarget2', { duration: 2000 });
+ScrollReveal().reveal('#workTarget2', { origin: 'top' });
+ScrollReveal().reveal('#workTarget2', { distance: '50px' });
+
+ScrollReveal().reveal('#workTarget3', { delay: 150 });
+ScrollReveal().reveal('#workTarget3', { duration: 2000 });
+ScrollReveal().reveal('#workTarget3', { origin: 'top' });
+ScrollReveal().reveal('#workTarget3', { distance: '50px' });
+
+ScrollReveal().reveal('#workTarget4', { delay: 150 });
+ScrollReveal().reveal('#workTarget4', { duration: 2000 });
+ScrollReveal().reveal('#workTarget4', { origin: 'top' });
+ScrollReveal().reveal('#workTarget4', { distance: '50px' });
+
+ScrollReveal().reveal('#workTarget5', { delay: 150 });
+ScrollReveal().reveal('#workTarget5', { duration: 2000 });
+ScrollReveal().reveal('#workTarget5', { origin: 'top' });
+ScrollReveal().reveal('#workTarget5', { distance: '50px' });
+
+ScrollReveal().reveal('#contact', { delay: 150 });
+ScrollReveal().reveal('#contact', { duration: 2000 });
+ScrollReveal().reveal('#contact', { origin: 'top' });
+ScrollReveal().reveal('#contact', { distance: '50px' });
+
+ScrollReveal().reveal('#listFooter', { delay: 150 });
+ScrollReveal().reveal('#listFooter', { duration: 2000 });
+ScrollReveal().reveal('#ListFooter', { distance: '50px' });
+
+ScrollReveal().reveal('#footerName', { delay: 150 });
+ScrollReveal().reveal('#footerName', { duration: 2000 });
+ScrollReveal().reveal('#footerName', { distance: '50px' });

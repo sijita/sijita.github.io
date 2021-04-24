@@ -15,7 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- ANIMACIONES -->
-    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">  
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css"> 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Sijita</title>
 </head>
 <body id="body">
@@ -60,18 +61,18 @@
     </header>
     <nav>
         <div class="d-flex flex-column align-items-center justify-content-center container vh-100" style="overflow: hidden;">
-            <h1 class="lh-1" id="mainTitle1" data-anijs="if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal">SIJITA</h1>
-            <h1 class="lh-1" id="mainTitle2" data-anijs="if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal"><span id="parents">(</span>SIMÓN JIMÉNEZ TAMAYO<span id="parents2">)</span></h1><br/>
-            <h1 class="lh-1 m-0" id="mainTitle3" data-anijs="if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal">Diseñador</h1>
-            <h1 class="lh-1 m-0" id="mainTitle4"><span class="d-inline-block" data-anijs="if: DOMContentLoaded, on: window, do: fadeInLeftBig animated, before: scrollReveal">Front</span> <span class="d-inline-block" data-anijs="if: DOMContentLoaded, on: window, do: zoomIn animated, before: scrollReveal">-</span> <span class="d-inline-block" data-anijs="if: DOMContentLoaded, on: window, do: fadeInRightBig animated, before: scrollReveal">End</span></h1>
+            <h1 class="lh-1 d-none" id="mainTitle1" data-anijs="if: DOMContentLoaded, on: window, do: $removeClass d-none; if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal">SIJITA</h1>
+            <h1 class="lh-1 d-none" id="mainTitle2" data-anijs="if: DOMContentLoaded, on: window, do: $removeClass d-none; if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal"><span id="parents">(</span>SIMÓN JIMÉNEZ TAMAYO<span id="parents2">)</span></h1><br/>
+            <h1 class="lh-1 m-0 d-none" id="mainTitle3" data-anijs="if: DOMContentLoaded, on: window, do: $removeClass d-none; if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal">Diseñador</h1>
+            <h1 class="lh-1 m-0" id="mainTitle4"><span class="d-inline-block d-none" data-anijs="if: DOMContentLoaded, on: window, do: $removeClass d-none; if: DOMContentLoaded, on: window, do: fadeInLeftBig animated, before: scrollReveal">Front</span> <span class="d-inline-block d-none" data-anijs="if: DOMContentLoaded, on: window, do: $removeClass d-none; if: DOMContentLoaded, on: window, do: zoomIn animated, before: scrollReveal">-</span> <span class="d-inline-block d-none" data-anijs="if: DOMContentLoaded, on: window, do: $removeClass d-none; if: DOMContentLoaded, on: window, do: fadeInRightBig animated, before: scrollReveal">End</span></h1>
         </div>
     </nav>
     <main>
         <article>
             <div class="container p-5 mb-5">
-                <h2 class="d-inline-block align-middle" id="aboutMe" data-anijs="if: DOMContentLoaded, on: window, do: $addClass d-none; if: scroll, on: window, do: $removeClass d-none; if: scroll, on: window, do: fadeInDown animated, before: scrollReveal">Sobre mi</h2>
+                <h2 class="d-inline-block align-middle" id="aboutMe">Sobre mi</h2>
                 <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="d-inline-block col fs-5 mt-4 mb-4" id="about" data-anijs="">
+                    <div class="col fs-5 mt-4 mb-4" id="about">
                         Hola! Soy
                         <span style="color: #BAFF29">Simón Jiménez Tamayo</span>,
                         tengo 19 años y soy estudiante de 5to semestre de
@@ -140,7 +141,7 @@
         </article>
         <article>
             <div class="container p-5 mt-5 mb-5">
-                <h2 class="d-inline align-middle" id="exp">Experiencia</h2>
+                <h2 class="d-inline-block align-middle" id="exp">Experiencia</h2>
                 <div class="mt-4 container" id="expList">
                     <ul class="row row-cols-1 row-cols-lg-2 p-0" style="list-style: none;">
                         <li class="mt-4 text-sm-center">
@@ -199,8 +200,8 @@
         </article>
         <article>
             <div class="container p-5 mt-5 mb-5">
-                <h2 class="d-inline align-middle" id="work">Trabajos</h2>
-                <div class="row row-cols-1 row-cols-lg-2 p-0">
+                <h2 class="d-inline-block align-middle" id="work">Trabajos</h2>
+                <div class="row row-cols-1 row-cols-lg-2 p-0" id="workTarget">
                     <div class="col mt-4 mb-0 mb-lg-4 text-center p-4 rounded" id="trabajosCards">
                         <img src="imgs/screen2.jpg" alt="screen" max-width="100%" class="rounded p-2 img-fluid" id="screen">
                     </div>
@@ -215,7 +216,7 @@
                         <span id="habilityCard3">BOOTSTRAP </span>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 p-4">
+                <div class="row row-cols-1 row-cols-lg-2 p-0" id="workTarget2">
                     <div class="col order-last order-lg-first mt-lg-4 mb-4 text-lg-start text-center p-3 p-sm-5 rounded" id="trabajosCards3">
                         <h3 class="m-0 fs-4" style="color: #fff">Generador de hojas de vida <a href="https://github.com/sijita/HVs-PHP" target="_blank"><img src="imgs/github.svg" alt="githubLogo" width="20" id="external2" class="mx-2"></a></h3> 
                         <br />
@@ -235,7 +236,7 @@
                         <a href="https://github.com/sijita/HVs-PHP" target="_blank"><img src="imgs/screen3.jpg" alt="screen" max-width="100%" class="rounded p-2 img-fluid" id="screen2"></a>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 p-4">
+                <div class="row row-cols-1 row-cols-lg-2 p-0" id="workTarget3">
                     <div class="col mt-4 mb-0 mb-lg-4 text-center p-4 rounded" id="trabajosCards5">
                         <a href="https://github.com/sijita/eCommerceJSP" target="_blank"><img src="imgs/screen4.jpg" alt="screen" max-width="100%" class="rounded p-2 img-fluid" id="screen3"></a>
                     </div>
@@ -255,7 +256,7 @@
                         <span id="habilityCard13">POSTGRESQL </span>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 p-4">
+                <div class="row row-cols-1 row-cols-lg-2 p-0" id="workTarget4">
                     <div class="col order-last order-lg-first mt-lg-4 mb-4 text-lg-start text-center p-3 p-sm-5 rounded" id="trabajosCards7">
                         <h3 class="m-0 fs-4" style="color: #fff">eCommerce (Solo front-end) <a href="https://github.com/sijita/eCommerce-only-design" target="_blank"><img src="imgs/github.svg" alt="githubLogo" width="20" id="external4" class="mx-2"></a></h3> 
                         <br />
@@ -270,7 +271,7 @@
                         <a href="https://github.com/sijita/eCommerce-only-design" target="_blank"><img src="imgs/screen5.jpg" alt="screen" max-width="90%" class="rounded p-2 img-fluid" id="screen4"></a>
                     </div>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 p-4">
+                <div class="row row-cols-1 row-cols-lg-2 p-0" id="workTarget5">
                     <div class="col mt-4 mb-0 mb-lg-4 text-center p-4 rounded" id="trabajosCards9">
                         <a href="https://github.com/sijita/FirstPage" target="_blank"><img src="imgs/screen.jpg" alt="screen" max-width="90%" class="rounded p-2 img-fluid" id="screen5"></a>
                     </div>
@@ -285,7 +286,6 @@
                     </div>
                 </div>
             </div>
-
         </article>
         <article>
             <div class="container pt-5 pe-5 ps-5" id="contact">
@@ -348,7 +348,7 @@
         </ul>
     </aside>
     <footer>
-        <div class="mt-5 mb-3 text-muted fs-6 text-center align-text-bottom">
+        <div class="mt-5 mb-3 text-muted fs-6 text-center align-text-bottom" id="footerName">
             <p class="m-0">Simón Jiménez Tamayo <br/> 2021</p>
         </div>
     </footer>

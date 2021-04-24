@@ -1,6 +1,6 @@
 #body {
     font-family: 'Sora', monospace; 
-    background-color: #0F0F0F
+    background-color: #0F0F0F;
 }
 
 #titleXS {
@@ -96,6 +96,7 @@
 
 #aboutMe {
     color: #f6fafd;
+    overflow: hidden;
 }
 
 #subTitle2 {
@@ -108,6 +109,7 @@
 
 #about {
     color: #96a4b3;
+    overflow: hidden;
 }
 
 #listH {
@@ -143,11 +145,13 @@
 }
 
 #exp {
-    color: #f6fafd
+    color: #f6fafd;
+    overflow: hidden;
 }
 
 #expList {
-    color: #96a4b3
+    color: #96a4b3;
+    overflow: hidden;
 }
 
 #fecha1 {
@@ -165,6 +169,11 @@
 
 #listFooter {
     list-style: none;
+    overflow: hidden;
+}
+
+#footerName {
+    overflow: hidden;
 }
 
 #wapp {
@@ -212,7 +221,28 @@
 }
 
 #work {
-    color: #f6fafd
+    color: #f6fafd;
+    overflow: hidden;
+}
+
+#workTarget {
+    overflow: hidden;
+}
+
+#workTarget2 {
+    overflow: hidden;
+}
+
+#workTarget3 {
+    overflow: hidden;
+}
+
+#workTarget4 {
+    overflow: hidden;
+}
+
+#workTarget5 {
+    overflow: hidden;
 }
 
 #screen {
@@ -385,7 +415,8 @@
 }
 
 #contact {
-    color: #f6fafd
+    color: #f6fafd;
+    overflow: hidden;
 }
 
 #btnContact {

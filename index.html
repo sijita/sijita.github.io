@@ -60,18 +60,18 @@
     </header>
     <nav>
         <div class="d-flex flex-column align-items-center justify-content-center container vh-100" style="overflow: hidden;">
-            <h1 class="lh-1" id="mainTitle1" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: scrollReveal">SIJITA</h1>
-            <h1 class="lh-1" id="mainTitle2" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: scrollReveal"><span id="parents">(</span>SIMÓN JIMÉNEZ TAMAYO<span id="parents2">)</span></h1><br/>
-            <h1 class="lh-1 m-0" id="mainTitle3" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: scrollReveal">Diseñador</h1>
-            <h1 class="lh-1 m-0" id="mainTitle4"><span class="d-inline-block" data-anijs="if: scroll, on: window, do: fadeInLeftBig animated, before: scrollReveal">Front</span> <span class="d-inline-block" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">-</span> <span class="d-inline-block" data-anijs="if: scroll, on: window, do: fadeInRightBig animated, before: scrollReveal">End</span></h1>
+            <h1 class="lh-1" id="mainTitle1" data-anijs="if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal">SIJITA</h1>
+            <h1 class="lh-1" id="mainTitle2" data-anijs="if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal"><span id="parents">(</span>SIMÓN JIMÉNEZ TAMAYO<span id="parents2">)</span></h1><br/>
+            <h1 class="lh-1 m-0" id="mainTitle3" data-anijs="if: DOMContentLoaded, on: window, do: fadeInDownBig animated, before: scrollReveal">Diseñador</h1>
+            <h1 class="lh-1 m-0" id="mainTitle4"><span class="d-inline-block" data-anijs="if: DOMContentLoaded, on: window, do: fadeInLeftBig animated, before: scrollReveal">Front</span> <span class="d-inline-block" data-anijs="if: DOMContentLoaded, on: window, do: zoomIn animated, before: scrollReveal">-</span> <span class="d-inline-block" data-anijs="if: DOMContentLoaded, on: window, do: fadeInRightBig animated, before: scrollReveal">End</span></h1>
         </div>
     </nav>
     <main>
         <article>
             <div class="container p-5 mb-5">
-                <h2 class="d-inline-block align-middle" id="aboutMe" data-anijs="if: scroll, on: window, do: slideInLeft animated, before: scrollReveal">Sobre mi</h2>
+                <h2 class="d-inline-block align-middle" id="aboutMe" data-anijs="if: DOMContentLoaded, on: window, do: $addClass d-none; if: scroll, on: window, do: $removeClass d-none; if: scroll, on: window, do: fadeInDown animated, before: scrollReveal">Sobre mi</h2>
                 <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="col fs-5 mt-4 mb-4" id="about" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">
+                    <div class="d-inline-block col fs-5 mt-4 mb-4" id="about" data-anijs="">
                         Hola! Soy
                         <span style="color: #BAFF29">Simón Jiménez Tamayo</span>,
                         tengo 19 años y soy estudiante de 5to semestre de

@@ -104,3 +104,8 @@ ScrollReveal().reveal('#ListFooter', { distance: '50px' });
 ScrollReveal().reveal('#footerName', { delay: 150 });
 ScrollReveal().reveal('#footerName', { duration: 2000 });
 ScrollReveal().reveal('#footerName', { distance: '50px' });
+
+ScrollReveal().reveal('header', { delay: 50 });
+ScrollReveal().reveal('header', { duration: 1000 });
+ScrollReveal().reveal('header', { origin: 'top' });
+ScrollReveal().reveal('header', { distance: '50px' });

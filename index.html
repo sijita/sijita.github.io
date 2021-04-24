@@ -14,6 +14,8 @@
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- ANIMACIONES -->
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">  
     <title>Sijita</title>
 </head>
 <body id="body">
@@ -57,19 +59,19 @@
         </nav>
     </header>
     <nav>
-        <div class="d-flex flex-column align-items-center justify-content-center container vh-100">
-            <h1 class="lh-1" id="mainTitle1">SIJITA</h1>
-            <h1 class="lh-1" id="mainTitle2"><span id="parents">(</span>SIMÓN JIMÉNEZ TAMAYO<span id="parents2">)</span></h1><br/>
-            <h1 class="lh-1 m-0" id="mainTitle3">Diseñador</h1>
-            <h1 class="lh-1 m-0" id="mainTitle4">Front - End</h1>
+        <div class="d-flex flex-column align-items-center justify-content-center container vh-100" style="overflow: hidden;">
+            <h1 class="lh-1" id="mainTitle1" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: scrollReveal">SIJITA</h1>
+            <h1 class="lh-1" id="mainTitle2" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: scrollReveal"><span id="parents">(</span>SIMÓN JIMÉNEZ TAMAYO<span id="parents2">)</span></h1><br/>
+            <h1 class="lh-1 m-0" id="mainTitle3" data-anijs="if: scroll, on: window, do: fadeInDownBig animated, before: scrollReveal">Diseñador</h1>
+            <h1 class="lh-1 m-0" id="mainTitle4"><span class="d-inline-block" data-anijs="if: scroll, on: window, do: fadeInLeftBig animated, before: scrollReveal">Front</span> <span class="d-inline-block" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">-</span> <span class="d-inline-block" data-anijs="if: scroll, on: window, do: fadeInRightBig animated, before: scrollReveal">End</span></h1>
         </div>
     </nav>
     <main>
         <article>
             <div class="container p-5 mb-5">
-                <h2 class="d-inline align-middle" id="aboutMe">Sobre mi</h2>
+                <h2 class="d-inline-block align-middle" id="aboutMe" data-anijs="if: scroll, on: window, do: slideInLeft animated, before: scrollReveal">Sobre mi</h2>
                 <div class="row row-cols-1 row-cols-lg-2">
-                    <div class="col fs-5 mt-4 mb-4" id="about">
+                    <div class="col fs-5 mt-4 mb-4" id="about" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">
                         Hola! Soy
                         <span style="color: #BAFF29">Simón Jiménez Tamayo</span>,
                         tengo 19 años y soy estudiante de 5to semestre de
@@ -355,5 +357,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+    <script src="bower_components/anijs/dist/anijs-min.js"></script>
+    <script src="anijs-min.js"></script>
+    <script src="anijs-helper-dom-min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+    <script src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
 </body>
 </html>

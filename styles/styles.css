@@ -183,6 +183,22 @@
     width: 0
 }
 
+.feather-facebook:hover {
+    stroke: #BAFF29;
+}
+
+.ionicon:hover {
+    fill: #BAFF29;
+}
+
+.feather-instagram:hover {
+    stroke: #BAFF29;
+}
+
+.feather-github:hover {
+    stroke: #BAFF29;
+}
+
 #listFooter {
     list-style: none;
     overflow: hidden;

@@ -156,6 +156,30 @@
     font-family: monospace
 }
 
+#listH7 {
+    list-style: none
+}
+
+#listH8 {
+    font-family: monospace
+}
+
+#listH9 {
+    font-family: monospace
+}
+
+#listH10 {
+    font-family: monospace
+}
+
+#listH11 {
+    font-family: monospace
+}
+
+#listH12 {
+    font-family: monospace
+}
+
 #profile {
     border: 1px solid #BAFF29;
 }
@@ -442,6 +466,11 @@
 }
 
 #habilityCard17{
+    font-family: monospace;
+    color:#BAFF29
+}
+
+#habilityCard18{
     font-family: monospace;
     color:#BAFF29
 }
